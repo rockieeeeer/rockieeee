@@ -1,0 +1,80 @@
+
+/* Video Background Style */
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.6) saturate(1.2);
+}
+
+/* Make sure body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  
+}
+
+.mb-3{
+    color: #b39811;
+}
+
+
+
+/* Center container vertically and horizontally */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login card style */
+.login-card {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(101, 18, 18, 0.452);
+  border: 2px solid #cc0055;
+}
+
+/* Title style */
+.login-title {
+  color: #b39811;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Custom button style */
+.btn-primary {
+  color: black;
+  background-color: #ffffff;
+  border-color: blueviolet;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  border-color: #cc0055;
+}
+
+/* Rounded inputs */
+.form-control {
+  border-radius: 10px;
+}
+
+.login-card p a {
+  color: #cc0055;        
+  text-decoration: underline; 
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
